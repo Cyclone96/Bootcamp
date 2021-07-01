@@ -42,7 +42,7 @@ Create an empty file called file01 in the lab directory.
 ## 7: Deleting directories
 
 What is the command used to remove a directory named **food** and everything inside it. 
-
+rm-r food
 # Part C - Github 
 
 ## 8: Download the GitHub desktop application
