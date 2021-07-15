@@ -1,0 +1,35 @@
+Quiz
+1. Can I use matching double quotes for string literals instead of single quotes? Yes
+
+2. Can I compare strings using comparison operators such as == and < or built-in functions such as max() and min()? Yes
+
+3. What does the expression 1/0 evaluate to in python?
+	Ans: 1
+	 
+4. Is there a difference between = and ==? Yes
+Is operator (=) checks whether two variables point to the same object in memory while the equality operator (==) compares the value/ equality of two objects
+(=) could also be an assignment operator
+
+5. Will a = b = c = 17 set the three variables to 17? Yes
+a = 17
+b = 17
+c = 17
+
+
+
+
+6. Give the value of a after the execution of each of the following sequences:
+a. a = 1
+b. a = a + a
+c. a = a + a
+d. a = a + a
+e. a = True
+f. a = not a
+g. a = not a
+h. a = not a
+i. a = 2
+j. a = a + a
+k. a = a + a
+l. a = a + a
+
+Value of a = 256
