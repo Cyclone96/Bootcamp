@@ -1,0 +1,36 @@
+QUIZ
+1.	Compose a program that creates a one-dimensional array containing exactly 1000 integers, and then attempts to access a[1000]. What happens when you run the program?
+a.	1000
+b.	Value of the array at the start
+c.	 Value of the array at the end
+d.	Indexing error
+Ans: Indexing error
+
+2.	What is wrong with the following code fragment?
+a = []
+for I in range(10):
+a[i] = i * i
+Ans: a is an empty in the listing. This implies that if it’s called, a run-time error will pop.
+
+
+3.	What does the following code fragment write?
+a = stdarray.createID(10, 0)
+for i in range(10):
+a[i] = 9 – i
+for i in range(10):
+a[i] = a[a[i]]
+for v in a:
+stdio.writeIn(v)
+
+Ans: It’s a NameError because the stdarray on the first line isn’t defined
+
+
+4.	What is a[] after executing the following code fragment?
+n = 10
+a = [0, 1]
+for I in range(2, n):
+a += [a[i-1] + a[i - 2]]
+Ans: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+
+
